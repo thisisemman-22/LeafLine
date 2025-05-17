@@ -50,6 +50,12 @@ LeafLine is an AI-powered web application for plant disease detection. Upload a 
    - Go to [http://127.0.0.1:8000/](http://127.0.0.1:8000/) *or your localhost domain if changed*
    - Upload a plant leaf image and view the prediction.
 
+## Model Training (Google Colab)
+
+The model used in this project was developed and trained in Google Colab. You can view the original Colab notebook here (accessible only to Batangas State University email accounts):
+
+[LeafLine Model Training Notebook (Google Colab)](https://colab.research.google.com/drive/1oAFY0ma_gCPOwuRBal_9PVO8iIjE2uFm#scrollTo=MMg00V7LMeuO)
+
 ## Dataset Acknowledgement
 
 This project uses the PlantVillage dataset:
