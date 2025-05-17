@@ -75,7 +75,7 @@ def predict():
         preds = model.predict(img_array)[0]
         pred_idx = int(np.argmax(preds))
         raw_label = CLASS_NAMES[pred_idx]
-        confidence = float(preds[pred_idx]) * 100  # Convert to percent
+        confidence = float(preds[pred_idx]) *100   # Convert to percent
         plant, status = parse_plant_and_status(raw_label)
         # Logging
         with open("prediction_log.txt", "a") as log_file:

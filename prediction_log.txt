@@ -53,3 +53,14 @@ File: 02d6c81a-c5dc-4b29-848a-7a0b8c42e5ed___FREC_Pwd.M 4699.JPG, Plant: Cherry,
 File: 050e7bff-2f2d-4c92-9422-05ce93f1d5a9___RS_HL 0097.jpg, Plant: Tomato, Status: Healthy, Confidence: 100.00%, Raw: Tomato___healthy
 File: toma_TMV.jpg, Plant: Pepper,  Bell, Status: Bacterial Spot, Confidence: 44.39%, Raw: Pepper,_bell___Bacterial_spot
 File: images (1).jpg, Plant: Soybean, Status: Healthy, Confidence: 99.33%, Raw: Soybean___healthy
+File: 0118e276-ee7b-4fed-961d-057590ae9f7f___RS_NLB 4666 copy 2.jpg, Plant: Corn, Status: Northern Leaf Blight, Confidence: 84.59%, Raw: Corn___Northern_Leaf_Blight
+File: 001187a0-57ab-4329-baff-e7246a9edeb0___RS_Early.B 8178.jpg, Plant: Potato, Status: Early Blight, Confidence: 100.00%, Raw: Potato___Early_blight
+File: RHS_SCN0002308.JPG, Plant: Corn, Status: Cercospora Leaf Spot Gray Leaf Spot, Confidence: 99.72%, Raw: Corn___Cercospora_leaf_spot Gray_leaf_spot
+File: RHS_SCN0002308.JPG, Plant: Corn, Status: Cercospora Leaf Spot Gray Leaf Spot, Confidence: 99.72%, Raw: Corn___Cercospora_leaf_spot Gray_leaf_spot
+File: a436dbe68b69b1ec8116dc0a6230423a.jpg, Plant: Grape, Status: Esca (Black Measles), Confidence: 37.63%, Raw: Grape___Esca_(Black_Measles)
+File: figure-2-tattered appearance on the affected leaves-893x595.jpg, Plant: Apple, Status: Black Rot, Confidence: 100.00%, Raw: Apple___Black_rot
+File: 00639d29-2d1a-4fcf-9bd3-a2b3109c74c4___UF.GRC_BS_Lab Leaf 1054.jpg, Plant: Tomato, Status: Bacterial Spot, Confidence: 99.99%, Raw: Tomato___Bacterial_spot
+File: green-apple-with-green-leaf-and-cut-slice-with-seed-isolated-on-white-background-free-photo.jpg, Plant: Blueberry, Status: Healthy, Confidence: 72.75%, Raw: Blueberry___healthy
+File: Exobasidium_on_upper_lf_surface.jpeg, Plant: Tomato, Status: Septoria Leaf Spot, Confidence: 73.40%, Raw: Tomato___Septoria_leaf_spot
+File: images.jpg, Plant: Tomato, Status: Tomato Yellow Leaf Curl Virus, Confidence: 99.89%, Raw: Tomato___Tomato_Yellow_Leaf_Curl_Virus
+File: butterhead-.webp, Plant: Blueberry, Status: Healthy, Confidence: 99.78%, Raw: Blueberry___healthy
