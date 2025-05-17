@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | LeafLine</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(120deg, #e0ffe0 0%, #f0faff 100%);
+            min-height: 100vh;
+            min-width: 100vw;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
+        .navbar {
+            width: 100vw;
+            background: #fff;
+            box-shadow: 0 2px 12px rgba(46,125,50,0.07);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.5rem 2.5rem 0.5rem 1.5rem;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 100;
+            box-sizing: border-box;
+        }
+        .navbar-left {
+            display: flex;
+            align-items: center;
+            gap: 0.7rem;
+        }
+        .navbar-logo {
+            max-width: 38px;
+            max-height: 38px;
+            border-radius: 10px;
+            box-shadow: 0 1px 4px rgba(46,125,50,0.10);
+        }
+        .navbar-title {
+            font-family: 'Roboto', sans-serif;
+            font-size: 2rem;
+            color: #2e7d32;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        .navbar-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+        .nav-link {
+            color: #2e7d32;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: color 0.2s;
+            padding: 0.2rem 0.5rem;
+            border-radius: 6px;
+            white-space: nowrap;
+        }
+        .nav-link.active, .nav-link:hover {
+            color: #fff;
+            background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+        }
+        .about-container {
+            background: #fff;
+            border-radius: 24px;
+            box-shadow: 0 8px 32px rgba(46,125,50,0.10), 0 1.5px 6px rgba(0,0,0,0.04);
+            padding: 2.5rem 2.5rem 2rem 2.5rem;
+            max-width: 600px;
+            width: 100%;
+            margin: 5.5rem auto 2rem auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        h1 {
+            text-align: center;
+            color: #2e7d32;
+            margin-bottom: 0.5rem;
+            letter-spacing: 1px;
+        }
+        .desc {
+            font-size: 1.08rem;
+            margin-bottom: 1.5rem;
+            color: #333;
+            text-align: center;
+        }
+        .team {
+            margin: 1.2rem 0 0.5rem 0;
+            font-weight: bold;
+            color: #2e7d32;
+            text-align: center;
+        }
+        ul {
+            margin-top: 0.2rem;
+            margin-bottom: 1.2rem;
+            text-align: center;
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 0.3rem;
+        }
+        @media (max-width: 700px) {
+            .about-container {
+                padding: 1.2rem 0.5rem 1rem 0.5rem;
+            }
+            .navbar {
+                padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+            }
+            .navbar-title {
+                font-size: 1.3rem;
+            }
+            .navbar-links {
+                gap: 0.7rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <img src="/assets/logo.png" alt="LeafLine Logo" class="navbar-logo" />
+            <span class="navbar-title">LeafLine</span>
+        </div>
+        <div class="navbar-links">
+            <a href="/" class="nav-link">Home</a>
+            <a href="/about" class="nav-link active">About</a>
+        </div>
+    </nav>
+    <div class="about-container">
+        <h1>About LeafLine</h1>
+        <div class="desc">
+            <b>LeafLine</b> is an AI-powered web application for plant disease detection, created as the final project for our AI course.<br><br>
+            The app allows users to upload a plant leaf image and instantly receive a prediction of the plant type and its health status using a deep learning model. Our goal is to make plant disease diagnosis more accessible and efficient for everyone.
+        </div>
+        <div class="team">Project Team</div>
+        <ul>
+            <li>Gabrielle Nikos Arevalo</li>
+            <li>Seth Alexine Mari Cua</li>
+            <li>Azaleah Yssha De Guzman</li>
+            <li>Leonore Ramos</li>
+            <li>Emmanuel Tamboong</li>
+        </ul>
+        <div style="text-align:center; margin-top:1.5rem; color:#388e3c; font-size:1rem;">
+            <b>Final Project - AI Prototype Development</b><br>
+            <span style="font-size:0.98rem; color:#555;">May 2025</span>
+        </div>
+    </div>
+</body>
+</html>

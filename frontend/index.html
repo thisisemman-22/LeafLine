@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeafLine</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(120deg, #e0ffe0 0%, #f0faff 100%);
+            min-height: 100vh;
+            min-width: 100vw;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
+        .navbar {
+            width: 100vw;
+            background: #fff;
+            box-shadow: 0 2px 12px rgba(46,125,50,0.07);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.5rem 2.5rem 0.5rem 1.5rem;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 100;
+            box-sizing: border-box;
+        }
+        .navbar-left {
+            display: flex;
+            align-items: center;
+            gap: 0.7rem;
+        }
+        .navbar-logo {
+            max-width: 38px;
+            max-height: 38px;
+            border-radius: 10px;
+            box-shadow: 0 1px 4px rgba(46,125,50,0.10);
+        }
+        .navbar-title {
+            font-family: 'Roboto', sans-serif;
+            font-size: 2rem;
+            color: #2e7d32;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        .navbar-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+        .nav-link {
+            color: #2e7d32;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: color 0.2s;
+            padding: 0.2rem 0.5rem;
+            border-radius: 6px;
+            white-space: nowrap;
+        }
+        .nav-link.active, .nav-link:hover {
+            color: #fff;
+            background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+        }
+        .container {
+            background: #fff;
+            border-radius: 24px;
+            box-shadow: 0 8px 32px rgba(46,125,50,0.10), 0 1.5px 6px rgba(0,0,0,0.04);
+            padding: 2.5rem 3rem 2rem 3rem;
+            max-width: 420px;
+            width: 100%;
+            position: relative;
+            margin: 5.5rem auto 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        h1 {
+            text-align: center;
+            color: #2e7d32;
+            margin-bottom: 1.5rem;
+            letter-spacing: 1px;
+        }
+        .file-input {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        input[type="file"] {
+            padding: 0.5rem;
+            border-radius: 8px;
+            border: 1px solid #bdbdbd;
+            background: #f8f8f8;
+        }
+        button {
+            background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            padding: 0.75rem;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.2s, box-shadow 0.2s;
+            box-shadow: 0 2px 8px rgba(46,125,50,0.08);
+        }
+        button:disabled {
+            background: #a5d6a7;
+            cursor: not-allowed;
+        }
+        .result, .error {
+            margin-top: 1.5rem;
+            padding: 1rem;
+            border-radius: 12px;
+            font-size: 1.1rem;
+        }
+        .result {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+        .error {
+            background: #ffebee;
+            color: #c62828;
+        }
+        .preview {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+        .preview img {
+            max-width: 180px;
+            max-height: 180px;
+            border-radius: 16px;
+            box-shadow: 0 2px 12px rgba(46,125,50,0.10);
+        }
+        .card {
+            background: #f4fff7;
+            border-radius: 18px;
+            box-shadow: 0 2px 12px rgba(46,125,50,0.10);
+            padding: 1.2rem 1.5rem;
+            margin-top: 0.5rem;
+            text-align: center;
+            position: relative;
+        }
+        .icon-leaf {
+            width: 48px;
+            height: 48px;
+            margin: 0 auto 0.5rem auto;
+            background: url('https://img.icons8.com/fluency/48/000000/leaf.png') no-repeat center center/contain;
+        }
+        .prediction-title {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #388e3c;
+            margin-bottom: 0.7rem;
+            letter-spacing: 0.5px;
+        }
+        .prediction-detail {
+            margin: 0.3rem 0;
+            font-size: 1.08rem;
+        }
+        .prediction-detail span {
+            color: #388e3c;
+            font-weight: 500;
+        }
+        @media (max-width: 700px) {
+            .navbar {
+                padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+            }
+            .navbar-title {
+                font-size: 1.3rem;
+            }
+            .container {
+                padding: 1.2rem 0.5rem 1rem 0.5rem;
+            }
+            .navbar-links {
+                gap: 0.7rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <img src="/assets/logo.png" alt="LeafLine Logo" class="navbar-logo" />
+            <span class="navbar-title">LeafLine</span>
+        </div>
+        <div class="navbar-links">
+            <a href="/" class="nav-link active">Home</a>
+            <a href="/about" class="nav-link">About</a>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Welcome to LeafLine!</h1>
+        <form id="uploadForm">
+            <div class="file-input">
+                <label for="file">Upload a plant leaf image (JPG/PNG):</label>
+                <input type="file" id="file" name="file" accept="image/*" required />
+            </div>
+            <div class="preview" id="preview"></div>
+            <button type="submit" id="submitBtn">Analyze</button>
+        </form>
+        <div class="result" id="result" style="display:none;"></div>
+        <div class="error" id="error" style="display:none;"></div>
+    </div>
+    <script>
+        const fileInput = document.getElementById('file');
+        const preview = document.getElementById('preview');
+        const resultDiv = document.getElementById('result');
+        const errorDiv = document.getElementById('error');
+        const form = document.getElementById('uploadForm');
+        const submitBtn = document.getElementById('submitBtn');
+
+        // Only allow one file
+        fileInput.addEventListener('change', function() {
+            resultDiv.style.display = 'none';
+            errorDiv.style.display = 'none';
+            preview.innerHTML = '';
+            if (fileInput.files.length > 1) {
+                errorDiv.textContent = 'Please upload only one image.';
+                errorDiv.style.display = 'block';
+                fileInput.value = '';
+                return;
+            }
+            if (fileInput.files.length === 1) {
+                const file = fileInput.files[0];
+                if (!file.type.startsWith('image/')) {
+                    errorDiv.textContent = 'File must be an image.';
+                    errorDiv.style.display = 'block';
+                    fileInput.value = '';
+                    return;
+                }
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    preview.innerHTML = `<img src="${e.target.result}" alt="Preview" />`;
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+
+        form.addEventListener('submit', async function(e) {
+            e.preventDefault();
+            resultDiv.style.display = 'none';
+            errorDiv.style.display = 'none';
+            if (fileInput.files.length !== 1) {
+                errorDiv.textContent = 'Please select one image to upload.';
+                errorDiv.style.display = 'block';
+                return;
+            }
+            const file = fileInput.files[0];
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Analyzing...';
+            try {
+                const formData = new FormData();
+                formData.append('file', file);
+                const response = await fetch('http://127.0.0.1:8000/predict', {
+                    method: 'POST',
+                    body: formData
+                });
+                const data = await response.json();
+                if (!response.ok) {
+                    throw new Error(data.error || 'An error occurred.');
+                }
+                resultDiv.innerHTML = `<div class="card">
+                    <div class="icon-leaf"></div>
+                    <div class="prediction-title">Prediction Result</div>
+                    <div class="prediction-detail"><span>Plant:</span> <b>${data.plant}</b></div>
+                    <div class="prediction-detail"><span>Status:</span> <b>${data.status}</b></div>
+                    <div class="prediction-detail"><span>Confidence:</span> <b>${data.confidence}</b></div>
+                </div>`;
+                resultDiv.style.display = 'block';
+            } catch (err) {
+                errorDiv.textContent = err.message;
+                errorDiv.style.display = 'block';
+            } finally {
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Analyze';
+            }
+        });
+    </script>
+</body>
+</html>

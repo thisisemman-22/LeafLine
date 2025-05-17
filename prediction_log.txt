@@ -1,0 +1,43 @@
+File: can-you-eat-potato-leaves.jpg, Top 3: [('Tomato, Late blight', 0.4994243383407593), ('Tomato, Early blight', 0.37754005193710327), ('Corn, Common rust', 0.03870229795575142)]
+File: f6b9c5972311aeba037a7d13e629683c_t.jpeg, Top 3: [('Pepper, bell, healthy', 0.9837213158607483), ('Cherry, healthy', 0.016178209334611893), ('Corn, Common rust', 3.0923325539333746e-05)]
+File: 70c2455c-a4e8-4da1-95c8-3f4af2158bf5.jpg, Top 3: [('Corn, healthy', 0.6576287746429443), ('Squash, Powdery mildew', 0.16139310598373413), ('Pepper, bell, healthy', 0.13025104999542236)]
+File: j44azdzgeir91.jpg, Top 3: [('Apple, Black rot', 0.8104473352432251), ('Peach, Bacterial spot', 0.09584789723157883), ('Pepper, bell, Bacterial spot', 0.07823451608419418)]
+File: images.jpg, Top 3: [('Corn, Cercospora leaf spot Gray leaf spot', 0.7418460249900818), ('Strawberry, Leaf scorch', 0.1117434948682785), ('Corn, Common rust', 0.08398880809545517)]
+File: a436dbe68b69b1ec8116dc0a6230423a.jpg, Top 3: [('Grape, Esca (Black Measles)', 0.37628087401390076), ('Strawberry, Leaf scorch', 0.3192501366138458), ('Apple, Black rot', 0.224695086479187)]
+File: RHS_SCN0002308.JPG, Top 3: [('Corn, Cercospora leaf spot Gray leaf spot', 0.9972387552261353), ('Grape, Esca (Black Measles)', 0.0024547630455344915), ('Strawberry, Leaf scorch', 0.00027227637474425137)]
+File: 029c0186-56f1-41de-bb6b-3743bdfb10ee___JR_Sept.L.S 8562.jpg, Top 3: [('Tomato, Septoria leaf spot', 0.9939531683921814), ('Tomato, Early blight', 0.006041159853339195), ('Pepper, bell, Bacterial spot', 1.6841038359416416e-06)]
+File: 00639d29-2d1a-4fcf-9bd3-a2b3109c74c4___UF.GRC_BS_Lab Leaf 1054.jpg, Plant: Tomato, Disease: Bacterial spot, Confidence: 0.9999, Raw: Tomato___Bacterial_spot
+File: 00639d29-2d1a-4fcf-9bd3-a2b3109c74c4___UF.GRC_BS_Lab Leaf 1054.jpg, Plant: Tomato, Disease: Bacterial spot, Confidence: 99.99%, Raw: Tomato___Bacterial_spot
+File: 70c2455c-a4e8-4da1-95c8-3f4af2158bf5.jpg, Plant: Corn, Disease: healthy, Confidence: 65.76%, Raw: Corn___healthy
+File: 70c2455c-a4e8-4da1-95c8-3f4af2158bf5.jpg, Plant: Corn, Status: Healthy, Confidence: 65.76%, Raw: Corn___healthy
+File: 70c2455c-a4e8-4da1-95c8-3f4af2158bf5.jpg, Plant: Corn, Status: Healthy, Confidence: 65.76%, Raw: Corn___healthy
+File: 0d9accf3-1285-4356-b69b-2ae132c5f145___PSU_CG 2337.jpg, Plant: Tomato, Status: Tomato Mosaic Virus, Confidence: 100.00%, Raw: Tomato___Tomato_mosaic_virus
+File: 00639d29-2d1a-4fcf-9bd3-a2b3109c74c4___UF.GRC_BS_Lab Leaf 1054.jpg, Plant: Tomato, Status: Bacterial Spot, Confidence: 99.99%, Raw: Tomato___Bacterial_spot
+File: images.jpg, Plant: Corn, Status: Cercospora Leaf Spot Gray Leaf Spot, Confidence: 74.18%, Raw: Corn___Cercospora_leaf_spot Gray_leaf_spot
+File: 029c0186-56f1-41de-bb6b-3743bdfb10ee___JR_Sept.L.S 8562.jpg, Plant: Tomato, Status: Septoria Leaf Spot, Confidence: 99.40%, Raw: Tomato___Septoria_leaf_spot
+File: download.png, Plant: Tomato, Status: Late Blight, Confidence: 99.88%, Raw: Tomato___Late_blight
+File: 70c2455c-a4e8-4da1-95c8-3f4af2158bf5.jpg, Plant: Corn, Status: Healthy, Confidence: 65.76%, Raw: Corn___healthy
+File: figure-2-tattered appearance on the affected leaves-893x595.jpg, Plant: Apple, Status: Black Rot, Confidence: 100.00%, Raw: Apple___Black_rot
+File: 029c0186-56f1-41de-bb6b-3743bdfb10ee___JR_Sept.L.S 8562.jpg, Plant: Tomato, Status: Septoria Leaf Spot, Confidence: 99.40%, Raw: Tomato___Septoria_leaf_spot
+File: NSS_Stabilo_Boss_Pastel_4_WEB_3of6_1024x1024.webp, Plant: Tomato, Status: Septoria Leaf Spot, Confidence: 98.62%, Raw: Tomato___Septoria_leaf_spot
+File: Upload Image.gif, Plant: Tomato, Status: Early Blight, Confidence: 99.27%, Raw: Tomato___Early_blight
+File: images.jpg, Plant: Corn, Status: Cercospora Leaf Spot Gray Leaf Spot, Confidence: 74.18%, Raw: Corn___Cercospora_leaf_spot Gray_leaf_spot
+File: 88c85403-20e6-4e6d-8e5c-3d782081da14.jpg, Plant: Strawberry, Status: Leaf Scorch, Confidence: 99.02%, Raw: Strawberry___Leaf_scorch
+File: lab 2 watermark.jpg, Plant: Tomato, Status: Septoria Leaf Spot, Confidence: 64.04%, Raw: Tomato___Septoria_leaf_spot
+File: 06d0298e-18e5-4bf5-8d33-8feef6600f15___RS_Erly.B 7573.jpg, Plant: Tomato, Status: Early Blight, Confidence: 99.98%, Raw: Tomato___Early_blight
+File: 00695906-210d-4a9d-822e-986a17384115___RS_LB 4026.jpg, Plant: Potato, Status: Late Blight, Confidence: 95.26%, Raw: Potato___Late_blight
+File: 029c0186-56f1-41de-bb6b-3743bdfb10ee___JR_Sept.L.S 8562.jpg, Plant: Tomato, Status: Septoria Leaf Spot, Confidence: 99.40%, Raw: Tomato___Septoria_leaf_spot
+File: 0022d6b7-d47c-4ee2-ae9a-392a53f48647___JR_B.Spot 8964.jpg, Plant: Pepper,  Bell, Status: Bacterial Spot, Confidence: 99.89%, Raw: Pepper,_bell___Bacterial_spot
+File: 00bc7858-1dca-4bfb-a828-225f03bd72a5___Com.G_SpM_FL 9455.jpg, Plant: Tomato, Status: Spider Mites Two-Spotted Spider Mite, Confidence: 99.85%, Raw: Tomato___Spider_mites Two-spotted_spider_mite
+File: 0118e276-ee7b-4fed-961d-057590ae9f7f___RS_NLB 4666 copy 2.jpg, Plant: Corn, Status: Northern Leaf Blight, Confidence: 84.59%, Raw: Corn___Northern_Leaf_Blight
+File: 0118e276-ee7b-4fed-961d-057590ae9f7f___RS_NLB 4666 copy 2.jpg, Plant: Corn, Status: Northern Leaf Blight, Confidence: 84.59%, Raw: Corn___Northern_Leaf_Blight
+File: 006efc68-9e46-4168-921c-10ef8065702c___FAM_B.Rot 3470.JPG, Plant: Grape, Status: Black Rot, Confidence: 99.12%, Raw: Grape___Black_rot
+File: 006efc68-9e46-4168-921c-10ef8065702c___FAM_B.Rot 3470.JPG, Plant: Grape, Status: Black Rot, Confidence: 99.12%, Raw: Grape___Black_rot
+File: RS_Rust 1569.JPG, Plant: Corn, Status: Common Rust, Confidence: 100.00%, Raw: Corn___Common_rust
+File: images.jpg, Plant: Corn, Status: Cercospora Leaf Spot Gray Leaf Spot, Confidence: 74.18%, Raw: Corn___Cercospora_leaf_spot Gray_leaf_spot
+File: images.jpg, Plant: Corn, Status: Cercospora Leaf Spot Gray Leaf Spot, Confidence: 74.18%, Raw: Corn___Cercospora_leaf_spot Gray_leaf_spot
+File: 01162551-b800-4df8-ac46-64d17d6ac5bf___FAM_B.Msls 1153.JPG, Plant: Grape, Status: Esca (Black Measles), Confidence: 100.00%, Raw: Grape___Esca_(Black_Measles)
+File: 02d6c81a-c5dc-4b29-848a-7a0b8c42e5ed___FREC_Pwd.M 4699.JPG, Plant: Cherry, Status: Powdery Mildew, Confidence: 98.52%, Raw: Cherry___Powdery_mildew
+File: j44azdzgeir91.jpg, Plant: Apple, Status: Black Rot, Confidence: 81.04%, Raw: Apple___Black_rot
+File: a436dbe68b69b1ec8116dc0a6230423a.jpg, Plant: Grape, Status: Esca (Black Measles), Confidence: 37.63%, Raw: Grape___Esca_(Black_Measles)
+File: 018eaeaf-82a5-407c-87f2-fc7edfc89ecc___RS_L.Scorch 0951.JPG, Plant: Strawberry, Status: Leaf Scorch, Confidence: 100.00%, Raw: Strawberry___Leaf_scorch
