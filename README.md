@@ -1,6 +1,6 @@
 # LeafLine: Plant Disease Classification Web App
 
-LeafLine is a web application that uses deep learning to detect plant diseases from leaf images. It features a modern HTML frontend and a Python Flask backend powered by a Keras-trained model. Upload a plant leaf image and get instant predictions about the plant and its health status!
+LeafLine is an AI-powered web application for plant disease detection. Upload a plant leaf image and instantly receive a prediction of the plant type and its health status using a deep learning model. Built with a modern HTML/JS frontend and a Python Flask backend.
 
 ## Features
 - Upload a plant leaf image and get a prediction (plant type and health status)
@@ -13,20 +13,24 @@ LeafLine is a web application that uses deep learning to detect plant diseases f
 ```
 ├── backend/
 │   └── api_backend.py         # Flask backend API
+│   └── requirements.txt      # Backend dependencies
 ├── frontend/
-│   └── index.html            # HTML/JS/CSS frontend
+│   └── index.html            # Main UI
+│   └── about.html            # About page
 ├── models/
 │   └── plant_disease_model.keras  # Trained Keras model
 │   └── best_plant_disease_model.h5
+├── assets/
+│   └── logo.png              # App logo
 ├── prediction_log.txt        # Log of predictions
 ├── Sample Images/            # Example images for testing
-├── LeafLine_Plant_Disease_Classification_Model.ipynb  # Model training notebook
+├── LICENSE                   # MIT License
+├── README.md                 # Project documentation
 ```
 
 ## Setup & Usage
 
 1. **Clone the repository**
-
 2. **Install dependencies**
    ```powershell
    cd backend
@@ -46,13 +50,17 @@ LeafLine is a web application that uses deep learning to detect plant diseases f
    - Go to [http://127.0.0.1:8000/](http://127.0.0.1:8000/) *or your localhost domain if changed*
    - Upload a plant leaf image and view the prediction.
 
-## Notes
-- The `venv/` directory (Python virtual environment) should **not** be included in the repository. Add it to `.gitignore`.
-- The model file (`plant_disease_model.keras`) is required for predictions. You can retrain or update it using the provided notebook.
-- For deployment to cloud or production, further configuration (e.g., Docker, HTTPS, production WSGI server) is recommended.
+## Dataset Acknowledgement
+
+This project uses the PlantVillage dataset:
+- Original paper: [PlantVillage: A Public Dataset for Plant Disease Detection](https://arxiv.org/abs/1511.08060)
+- Dataset URL: [Mendeley Data](https://data.mendeley.com/datasets/tywbtsjrjv/1)
+
+The PlantVillage dataset is © the original authors and is distributed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license. We do not claim ownership of the dataset.
 
 ## License
-MIT License
+
+The code in this repository is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
